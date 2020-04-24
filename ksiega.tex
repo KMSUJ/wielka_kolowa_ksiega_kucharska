@@ -1,0 +1,42 @@
+\documentclass[12pt,a4paper]{book}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[polish]{babel}
+\usepackage{polski}
+\usepackage{authoraftertitle}
+\usepackage{geometry}
+\usepackage{graphicx}
+
+\newgeometry{tmargin=2.5cm, bmargin=2.5cm, lmargin=2.5cm, rmargin=2.5cm}
+\setcounter{secnumdepth}{0}
+\setlength\parindent{0pt}
+
+
+\pagestyle{plain}
+\title{Wielka Kołowa Księga Kucharska}
+\author{Koło Matematyków Studentów UJ im. prof. Stanisława Zaremby}
+\date{2020}
+
+\begin{document}
+	\begin{titlepage}
+		\begin{center}
+			\vspace*{200pt}
+			{\huge\bfseries \MyTitle}\\
+			% ----------------------------------------------------------------
+			\vspace{1.5cm}
+			\textsc{\Large{{Koło Matematyków Studentów UJ\\im. prof. Stanisława Zaremby}}} \\[5pt]
+			\vfill
+			{\the\year}
+		\end{center}
+	\end{titlepage}
+
+	\tableofcontents
+	
+	\include{przystawki}
+	\include{zupy}
+	\include{dania_glowne}
+	\include{desery}
+\end{document}
